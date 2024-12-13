@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Cantora+One&family=Delius&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Geist+Mono:wght@100..900&family=Londrina+Sketch&family=Pacifico&family=Space+Grotesk:wght@300..700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f5f3e4; 
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+#button-holder {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: auto;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  text-align: center;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  font-size: 18px;
+  border: none;
+  border-radius: 1px;
+  padding: 5px;
+  color: white;
+  background: #5b6363;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button:hover {
+  background: #282b2b;
+}
